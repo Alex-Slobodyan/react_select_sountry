@@ -1,0 +1,30 @@
+
+
+:root {
+  --jo: 20px;
+}
+.js-nav{
+  position:fixed;
+  right:-100%;
+  top:0;
+  bottom:0;
+  width:300px;
+  height:-300px;
+  background: aqua;
+  transition: all 1s;
+  &--open{
+    right:0;
+  }
+}
+
+#root{
+    margin:var(--jo);
+}
+
+.content{
+  transition: all 1s;
+}
+
+.fixed_right {
+  position:fixed;
+}

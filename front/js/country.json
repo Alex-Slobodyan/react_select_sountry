@@ -1,0 +1,2006 @@
+{
+    "countries": {
+        "country": [
+            {
+                "countryCode": "AD",
+                "countryName": "Andorra",
+                "population": "84000",
+                "fipsCode": "AN",
+                "continentName": "Europe",
+                "languages": "ca"
+            },
+            {
+                "countryCode": "AE",
+                "countryName": "United Arab Emirates",
+                "population": "4975593",
+                "fipsCode": "AE",
+                "continentName": "Asia",
+                "languages": "ar-AE,fa,en,hi,ur"
+            },
+            {
+                "countryCode": "AF",
+                "countryName": "Afghanistan",
+                "population": "29121286",
+                "fipsCode": "AF",
+                "continentName": "Asia",
+                "languages": "fa-AF,ps,uz-AF,tk"
+            },
+            {
+                "countryCode": "AG",
+                "countryName": "Antigua and Barbuda",
+                "population": "86754",
+                "fipsCode": "AC",
+                "continentName": "North America",
+                "languages": "en-AG"
+            },
+            {
+                "countryCode": "AI",
+                "countryName": "Anguilla",
+                "population": "13254",
+                "fipsCode": "AV",
+                "continentName": "North America",
+                "languages": "en-AI"
+            },
+            {
+                "countryCode": "AL",
+                "countryName": "Albania",
+                "population": "2986952",
+                "fipsCode": "AL",
+                "continentName": "Europe",
+                "languages": "sq,el"
+            },
+            {
+                "countryCode": "AM",
+                "countryName": "Armenia",
+                "population": "2968000",
+                "fipsCode": "AM",
+                "continentName": "Asia",
+                "languages": "hy"
+            },
+            {
+                "countryCode": "AO",
+                "countryName": "Angola",
+                "population": "13068161",
+                "fipsCode": "AO",
+                "continentName": "Africa",
+                "languages": "pt-AO"
+            },
+            {
+                "countryCode": "AQ",
+                "countryName": "Antarctica",
+                "population": "0",
+                "fipsCode": "AY",
+                "continentName": "Antarctica",
+                "languages": ""
+            },
+            {
+                "countryCode": "AR",
+                "countryName": "Argentina",
+                "population": "41343201",
+                "fipsCode": "AR",
+                "continentName": "South America",
+                "languages": "es-AR,en,it,de,fr,gn"
+            },
+            {
+                "countryCode": "AS",
+                "countryName": "American Samoa",
+                "population": "57881",
+                "fipsCode": "AQ",
+                "continentName": "Oceania",
+                "languages": "en-AS,sm,to"
+            },
+            {
+                "countryCode": "AT",
+                "countryName": "Austria",
+                "population": "8205000",
+                "fipsCode": "AU",
+                "continentName": "Europe",
+                "languages": "de-AT,hr,hu,sl"
+            },
+            {
+                "countryCode": "AU",
+                "countryName": "Australia",
+                "population": "21515754",
+                "fipsCode": "AS",
+                "continentName": "Oceania",
+                "languages": "en-AU"
+            },
+            {
+                "countryCode": "AW",
+                "countryName": "Aruba",
+                "population": "71566",
+                "fipsCode": "AA",
+                "continentName": "North America",
+                "languages": "nl-AW,pap,es,en"
+            },
+            {
+                "countryCode": "AX",
+                "countryName": "Åland",
+                "population": "26711",
+                "fipsCode": "",
+                "continentName": "Europe",
+                "languages": "sv-AX"
+            },
+            {
+                "countryCode": "AZ",
+                "countryName": "Azerbaijan",
+                "population": "8303512",
+                "fipsCode": "AJ",
+                "continentName": "Asia",
+                "languages": "az,ru,hy"
+            },
+            {
+                "countryCode": "BA",
+                "countryName": "Bosnia and Herzegovina",
+                "population": "4590000",
+                "fipsCode": "BK",
+                "continentName": "Europe",
+                "languages": "bs,hr-BA,sr-BA"
+            },
+            {
+                "countryCode": "BB",
+                "countryName": "Barbados",
+                "population": "285653",
+                "fipsCode": "BB",
+                "continentName": "North America",
+                "languages": "en-BB"
+            },
+            {
+                "countryCode": "BD",
+                "countryName": "Bangladesh",
+                "population": "156118464",
+                "fipsCode": "BG",
+                "continentName": "Asia",
+                "languages": "bn-BD,en"
+            },
+            {
+                "countryCode": "BE",
+                "countryName": "Belgium",
+                "population": "10403000",
+                "fipsCode": "BE",
+                "continentName": "Europe",
+                "languages": "nl-BE,fr-BE,de-BE"
+            },
+            {
+                "countryCode": "BF",
+                "countryName": "Burkina Faso",
+                "population": "16241811",
+                "fipsCode": "UV",
+                "continentName": "Africa",
+                "languages": "fr-BF,mos"
+            },
+            {
+                "countryCode": "BG",
+                "countryName": "Bulgaria",
+                "population": "7148785",
+                "fipsCode": "BU",
+                "continentName": "Europe",
+                "languages": "bg,tr-BG,rom"
+            },
+            {
+                "countryCode": "BH",
+                "countryName": "Bahrain",
+                "population": "738004",
+                "fipsCode": "BA",
+                "continentName": "Asia",
+                "languages": "ar-BH,en,fa,ur"
+            },
+            {
+                "countryCode": "BI",
+                "countryName": "Burundi",
+                "population": "9863117",
+                "fipsCode": "BY",
+                "continentName": "Africa",
+                "languages": "fr-BI,rn"
+            },
+            {
+                "countryCode": "BJ",
+                "countryName": "Benin",
+                "population": "9056010",
+                "fipsCode": "BN",
+                "continentName": "Africa",
+                "languages": "fr-BJ"
+            },
+            {
+                "countryCode": "BL",
+                "countryName": "Saint Barthélemy",
+                "population": "8450",
+                "fipsCode": "TB",
+                "continentName": "North America",
+                "languages": "fr"
+            },
+            {
+                "countryCode": "BM",
+                "countryName": "Bermuda",
+                "population": "65365",
+                "fipsCode": "BD",
+                "continentName": "North America",
+                "languages": "en-BM,pt"
+            },
+            {
+                "countryCode": "BN",
+                "countryName": "Brunei",
+                "population": "395027",
+                "fipsCode": "BX",
+                "continentName": "Asia",
+                "languages": "ms-BN,en-BN"
+            },
+            {
+                "countryCode": "BO",
+                "countryName": "Bolivia",
+                "population": "9947418",
+                "fipsCode": "BL",
+                "continentName": "South America",
+                "languages": "es-BO,qu,ay"
+            },
+            {
+                "countryCode": "BQ",
+                "countryName": "Bonaire",
+                "population": "18012",
+                "fipsCode": "",
+                "continentName": "North America",
+                "languages": "nl,pap,en"
+            },
+            {
+                "countryCode": "BR",
+                "countryName": "Brazil",
+                "population": "201103330",
+                "fipsCode": "BR",
+                "continentName": "South America",
+                "languages": "pt-BR,es,en,fr"
+            },
+            {
+                "countryCode": "BS",
+                "countryName": "Bahamas",
+                "population": "301790",
+                "fipsCode": "BF",
+                "continentName": "North America",
+                "languages": "en-BS"
+            },
+            {
+                "countryCode": "BT",
+                "countryName": "Bhutan",
+                "population": "699847",
+                "fipsCode": "BT",
+                "continentName": "Asia",
+                "languages": "dz"
+            },
+            {
+                "countryCode": "BV",
+                "countryName": "Bouvet Island",
+                "population": "0",
+                "fipsCode": "BV",
+                "continentName": "Antarctica",
+                "languages": ""
+            },
+            {
+                "countryCode": "BW",
+                "countryName": "Botswana",
+                "population": "2029307",
+                "fipsCode": "BC",
+                "continentName": "Africa",
+                "languages": "en-BW,tn-BW"
+            },
+            {
+                "countryCode": "BY",
+                "countryName": "Belarus",
+                "population": "9685000",
+                "fipsCode": "BO",
+                "continentName": "Europe",
+                "languages": "be,ru"
+            },
+            {
+                "countryCode": "BZ",
+                "countryName": "Belize",
+                "population": "314522",
+                "fipsCode": "BH",
+                "continentName": "North America",
+                "languages": "en-BZ,es"
+            },
+            {
+                "countryCode": "CA",
+                "countryName": "Canada",
+                "population": "33679000",
+                "fipsCode": "CA",
+                "continentName": "North America",
+                "languages": "en-CA,fr-CA,iu"
+            },
+            {
+                "countryCode": "CC",
+                "countryName": "Cocos [Keeling] Islands",
+                "population": "628",
+                "fipsCode": "CK",
+                "continentName": "Asia",
+                "languages": "ms-CC,en"
+            },
+            {
+                "countryCode": "CD",
+                "countryName": "Democratic Republic of the Congo",
+                "population": "70916439",
+                "fipsCode": "CG",
+                "continentName": "Africa",
+                "languages": "fr-CD,ln,ktu,kg,sw,lua"
+            },
+            {
+                "countryCode": "CF",
+                "countryName": "Central African Republic",
+                "population": "4844927",
+                "fipsCode": "CT",
+                "continentName": "Africa",
+                "languages": "fr-CF,sg,ln,kg"
+            },
+            {
+                "countryCode": "CG",
+                "countryName": "Republic of the Congo",
+                "population": "3039126",
+                "fipsCode": "CF",
+                "continentName": "Africa",
+                "languages": "fr-CG,kg,ln-CG"
+            },
+            {
+                "countryCode": "CH",
+                "countryName": "Switzerland",
+                "population": "7581000",
+                "fipsCode": "SZ",
+                "continentName": "Europe",
+                "languages": "de-CH,fr-CH,it-CH,rm"
+            },
+            {
+                "countryCode": "CI",
+                "countryName": "Ivory Coast",
+                "population": "21058798",
+                "fipsCode": "IV",
+                "continentName": "Africa",
+                "languages": "fr-CI"
+            },
+            {
+                "countryCode": "CK",
+                "countryName": "Cook Islands",
+                "population": "21388",
+                "fipsCode": "CW",
+                "continentName": "Oceania",
+                "languages": "en-CK,mi"
+            },
+            {
+                "countryCode": "CL",
+                "countryName": "Chile",
+                "population": "16746491",
+                "fipsCode": "CI",
+                "continentName": "South America",
+                "languages": "es-CL"
+            },
+            {
+                "countryCode": "CM",
+                "countryName": "Cameroon",
+                "population": "19294149",
+                "fipsCode": "CM",
+                "continentName": "Africa",
+                "languages": "en-CM,fr-CM"
+            },
+            {
+                "countryCode": "CN",
+                "countryName": "China",
+                "population": "1330044000",
+                "fipsCode": "CH",
+                "continentName": "Asia",
+                "languages": "zh-CN,yue,wuu,dta,ug,za"
+            },
+            {
+                "countryCode": "CO",
+                "countryName": "Colombia",
+                "population": "47790000",
+                "fipsCode": "CO",
+                "continentName": "South America",
+                "languages": "es-CO"
+            },
+            {
+                "countryCode": "CR",
+                "countryName": "Costa Rica",
+                "population": "4516220",
+                "fipsCode": "CS",
+                "continentName": "North America",
+                "languages": "es-CR,en"
+            },
+            {
+                "countryCode": "CU",
+                "countryName": "Cuba",
+                "population": "11423000",
+                "fipsCode": "CU",
+                "continentName": "North America",
+                "languages": "es-CU,pap"
+            },
+            {
+                "countryCode": "CV",
+                "countryName": "Cape Verde",
+                "population": "508659",
+                "fipsCode": "CV",
+                "continentName": "Africa",
+                "languages": "pt-CV"
+            },
+            {
+                "countryCode": "CW",
+                "countryName": "Curacao",
+                "population": "141766",
+                "fipsCode": "UC",
+                "continentName": "North America",
+                "languages": "nl,pap"
+            },
+            {
+                "countryCode": "CX",
+                "countryName": "Christmas Island",
+                "population": "1500",
+                "fipsCode": "KT",
+                "continentName": "Asia",
+                "languages": "en,zh,ms-CC"
+            },
+            {
+                "countryCode": "CY",
+                "countryName": "Cyprus",
+                "population": "1102677",
+                "fipsCode": "CY",
+                "continentName": "Europe",
+                "languages": "el-CY,tr-CY,en"
+            },
+            {
+                "countryCode": "CZ",
+                "countryName": "Czechia",
+                "population": "10476000",
+                "fipsCode": "EZ",
+                "continentName": "Europe",
+                "languages": "cs,sk"
+            },
+            {
+                "countryCode": "DE",
+                "countryName": "Germany",
+                "population": "81802257",
+                "fipsCode": "GM",
+                "continentName": "Europe",
+                "languages": "de"
+            },
+            {
+                "countryCode": "DJ",
+                "countryName": "Djibouti",
+                "population": "740528",
+                "fipsCode": "DJ",
+                "continentName": "Africa",
+                "languages": "fr-DJ,ar,so-DJ,aa"
+            },
+            {
+                "countryCode": "DK",
+                "countryName": "Denmark",
+                "population": "5484000",
+                "fipsCode": "DA",
+                "continentName": "Europe",
+                "languages": "da-DK,en,fo,de-DK"
+            },
+            {
+                "countryCode": "DM",
+                "countryName": "Dominica",
+                "population": "72813",
+                "fipsCode": "DO",
+                "continentName": "North America",
+                "languages": "en-DM"
+            },
+            {
+                "countryCode": "DO",
+                "countryName": "Dominican Republic",
+                "population": "9823821",
+                "fipsCode": "DR",
+                "continentName": "North America",
+                "languages": "es-DO"
+            },
+            {
+                "countryCode": "DZ",
+                "countryName": "Algeria",
+                "population": "34586184",
+                "fipsCode": "AG",
+                "continentName": "Africa",
+                "languages": "ar-DZ"
+            },
+            {
+                "countryCode": "EC",
+                "countryName": "Ecuador",
+                "population": "14790608",
+                "fipsCode": "EC",
+                "continentName": "South America",
+                "languages": "es-EC"
+            },
+            {
+                "countryCode": "EE",
+                "countryName": "Estonia",
+                "population": "1291170",
+                "fipsCode": "EN",
+                "continentName": "Europe",
+                "languages": "et,ru"
+            },
+            {
+                "countryCode": "EG",
+                "countryName": "Egypt",
+                "population": "80471869",
+                "fipsCode": "EG",
+                "continentName": "Africa",
+                "languages": "ar-EG,en,fr"
+            },
+            {
+                "countryCode": "EH",
+                "countryName": "Western Sahara",
+                "population": "273008",
+                "fipsCode": "WI",
+                "continentName": "Africa",
+                "languages": "ar,mey"
+            },
+            {
+                "countryCode": "ER",
+                "countryName": "Eritrea",
+                "population": "5792984",
+                "fipsCode": "ER",
+                "continentName": "Africa",
+                "languages": "aa-ER,ar,tig,kun,ti-ER"
+            },
+            {
+                "countryCode": "ES",
+                "countryName": "Spain",
+                "population": "46505963",
+                "fipsCode": "SP",
+                "continentName": "Europe",
+                "languages": "es-ES,ca,gl,eu,oc"
+            },
+            {
+                "countryCode": "ET",
+                "countryName": "Ethiopia",
+                "population": "88013491",
+                "fipsCode": "ET",
+                "continentName": "Africa",
+                "languages": "am,en-ET,om-ET,ti-ET,so-ET,sid"
+            },
+            {
+                "countryCode": "FI",
+                "countryName": "Finland",
+                "population": "5244000",
+                "fipsCode": "FI",
+                "continentName": "Europe",
+                "languages": "fi-FI,sv-FI,smn"
+            },
+            {
+                "countryCode": "FJ",
+                "countryName": "Fiji",
+                "population": "875983",
+                "fipsCode": "FJ",
+                "continentName": "Oceania",
+                "languages": "en-FJ,fj"
+            },
+            {
+                "countryCode": "FK",
+                "countryName": "Falkland Islands",
+                "population": "2638",
+                "fipsCode": "FK",
+                "continentName": "South America",
+                "languages": "en-FK"
+            },
+            {
+                "countryCode": "FM",
+                "countryName": "Micronesia",
+                "population": "107708",
+                "fipsCode": "FM",
+                "continentName": "Oceania",
+                "languages": "en-FM,chk,pon,yap,kos,uli,woe,nkr,kpg"
+            },
+            {
+                "countryCode": "FO",
+                "countryName": "Faroe Islands",
+                "population": "48228",
+                "fipsCode": "FO",
+                "continentName": "Europe",
+                "languages": "fo,da-FO"
+            },
+            {
+                "countryCode": "FR",
+                "countryName": "France",
+                "population": "64768389",
+                "fipsCode": "FR",
+                "continentName": "Europe",
+                "languages": "fr-FR,frp,br,co,ca,eu,oc"
+            },
+            {
+                "countryCode": "GA",
+                "countryName": "Gabon",
+                "population": "1545255",
+                "fipsCode": "GB",
+                "continentName": "Africa",
+                "languages": "fr-GA"
+            },
+            {
+                "countryCode": "GB",
+                "countryName": "United Kingdom",
+                "population": "62348447",
+                "fipsCode": "UK",
+                "continentName": "Europe",
+                "languages": "en-GB,cy-GB,gd"
+            },
+            {
+                "countryCode": "GD",
+                "countryName": "Grenada",
+                "population": "107818",
+                "fipsCode": "GJ",
+                "continentName": "North America",
+                "languages": "en-GD"
+            },
+            {
+                "countryCode": "GE",
+                "countryName": "Georgia",
+                "population": "4630000",
+                "fipsCode": "GG",
+                "continentName": "Asia",
+                "languages": "ka,ru,hy,az"
+            },
+            {
+                "countryCode": "GF",
+                "countryName": "French Guiana",
+                "population": "195506",
+                "fipsCode": "FG",
+                "continentName": "South America",
+                "languages": "fr-GF"
+            },
+            {
+                "countryCode": "GG",
+                "countryName": "Guernsey",
+                "population": "65228",
+                "fipsCode": "GK",
+                "continentName": "Europe",
+                "languages": "en,nrf"
+            },
+            {
+                "countryCode": "GH",
+                "countryName": "Ghana",
+                "population": "24339838",
+                "fipsCode": "GH",
+                "continentName": "Africa",
+                "languages": "en-GH,ak,ee,tw"
+            },
+            {
+                "countryCode": "GI",
+                "countryName": "Gibraltar",
+                "population": "27884",
+                "fipsCode": "GI",
+                "continentName": "Europe",
+                "languages": "en-GI,es,it,pt"
+            },
+            {
+                "countryCode": "GL",
+                "countryName": "Greenland",
+                "population": "56375",
+                "fipsCode": "GL",
+                "continentName": "North America",
+                "languages": "kl,da-GL,en"
+            },
+            {
+                "countryCode": "GM",
+                "countryName": "Gambia",
+                "population": "1593256",
+                "fipsCode": "GA",
+                "continentName": "Africa",
+                "languages": "en-GM,mnk,wof,wo,ff"
+            },
+            {
+                "countryCode": "GN",
+                "countryName": "Guinea",
+                "population": "10324025",
+                "fipsCode": "GV",
+                "continentName": "Africa",
+                "languages": "fr-GN"
+            },
+            {
+                "countryCode": "GP",
+                "countryName": "Guadeloupe",
+                "population": "443000",
+                "fipsCode": "GP",
+                "continentName": "North America",
+                "languages": "fr-GP"
+            },
+            {
+                "countryCode": "GQ",
+                "countryName": "Equatorial Guinea",
+                "population": "1014999",
+                "fipsCode": "EK",
+                "continentName": "Africa",
+                "languages": "es-GQ,fr"
+            },
+            {
+                "countryCode": "GR",
+                "countryName": "Greece",
+                "population": "11000000",
+                "fipsCode": "GR",
+                "continentName": "Europe",
+                "languages": "el-GR,en,fr"
+            },
+            {
+                "countryCode": "GS",
+                "countryName": "South Georgia and the South Sandwich Islands",
+                "population": "30",
+                "fipsCode": "SX",
+                "continentName": "Antarctica",
+                "languages": "en"
+            },
+            {
+                "countryCode": "GT",
+                "countryName": "Guatemala",
+                "population": "13550440",
+                "fipsCode": "GT",
+                "continentName": "North America",
+                "languages": "es-GT"
+            },
+            {
+                "countryCode": "GU",
+                "countryName": "Guam",
+                "population": "159358",
+                "fipsCode": "GQ",
+                "continentName": "Oceania",
+                "languages": "en-GU,ch-GU"
+            },
+            {
+                "countryCode": "GW",
+                "countryName": "Guinea-Bissau",
+                "population": "1565126",
+                "fipsCode": "PU",
+                "continentName": "Africa",
+                "languages": "pt-GW,pov"
+            },
+            {
+                "countryCode": "GY",
+                "countryName": "Guyana",
+                "population": "748486",
+                "fipsCode": "GY",
+                "continentName": "South America",
+                "languages": "en-GY"
+            },
+            {
+                "countryCode": "HK",
+                "countryName": "Hong Kong",
+                "population": "6898686",
+                "fipsCode": "HK",
+                "continentName": "Asia",
+                "languages": "zh-HK,yue,zh,en"
+            },
+            {
+                "countryCode": "HM",
+                "countryName": "Heard Island and McDonald Islands",
+                "population": "0",
+                "fipsCode": "HM",
+                "continentName": "Antarctica",
+                "languages": ""
+            },
+            {
+                "countryCode": "HN",
+                "countryName": "Honduras",
+                "population": "7989415",
+                "fipsCode": "HO",
+                "continentName": "North America",
+                "languages": "es-HN,cab,miq"
+            },
+            {
+                "countryCode": "HR",
+                "countryName": "Croatia",
+                "population": "4284889",
+                "fipsCode": "HR",
+                "continentName": "Europe",
+                "languages": "hr-HR,sr"
+            },
+            {
+                "countryCode": "HT",
+                "countryName": "Haiti",
+                "population": "9648924",
+                "fipsCode": "HA",
+                "continentName": "North America",
+                "languages": "ht,fr-HT"
+            },
+            {
+                "countryCode": "HU",
+                "countryName": "Hungary",
+                "population": "9982000",
+                "fipsCode": "HU",
+                "continentName": "Europe",
+                "languages": "hu-HU"
+            },
+            {
+                "countryCode": "ID",
+                "countryName": "Indonesia",
+                "population": "242968342",
+                "fipsCode": "ID",
+                "continentName": "Asia",
+                "languages": "id,en,nl,jv"
+            },
+            {
+                "countryCode": "IE",
+                "countryName": "Ireland",
+                "population": "4622917",
+                "fipsCode": "EI",
+                "continentName": "Europe",
+                "languages": "en-IE,ga-IE"
+            },
+            {
+                "countryCode": "IL",
+                "countryName": "Israel",
+                "population": "7353985",
+                "fipsCode": "IS",
+                "continentName": "Asia",
+                "languages": "he,ar-IL,en-IL,"
+            },
+            {
+                "countryCode": "IM",
+                "countryName": "Isle of Man",
+                "population": "75049",
+                "fipsCode": "IM",
+                "continentName": "Europe",
+                "languages": "en,gv"
+            },
+            {
+                "countryCode": "IN",
+                "countryName": "India",
+                "population": "1173108018",
+                "fipsCode": "IN",
+                "continentName": "Asia",
+                "languages": "en-IN,hi,bn,te,mr,ta,ur,gu,kn,ml,or,pa,as,bh,sat,ks,ne,sd,kok,doi,mni,sit,sa,fr,lus,inc"
+            },
+            {
+                "countryCode": "IO",
+                "countryName": "British Indian Ocean Territory",
+                "population": "4000",
+                "fipsCode": "IO",
+                "continentName": "Asia",
+                "languages": "en-IO"
+            },
+            {
+                "countryCode": "IQ",
+                "countryName": "Iraq",
+                "population": "29671605",
+                "fipsCode": "IZ",
+                "continentName": "Asia",
+                "languages": "ar-IQ,ku,hy"
+            },
+            {
+                "countryCode": "IR",
+                "countryName": "Iran",
+                "population": "76923300",
+                "fipsCode": "IR",
+                "continentName": "Asia",
+                "languages": "fa-IR,ku"
+            },
+            {
+                "countryCode": "IS",
+                "countryName": "Iceland",
+                "population": "308910",
+                "fipsCode": "IC",
+                "continentName": "Europe",
+                "languages": "is,en,de,da,sv,no"
+            },
+            {
+                "countryCode": "IT",
+                "countryName": "Italy",
+                "population": "60340328",
+                "fipsCode": "IT",
+                "continentName": "Europe",
+                "languages": "it-IT,de-IT,fr-IT,sc,ca,co,sl"
+            },
+            {
+                "countryCode": "JE",
+                "countryName": "Jersey",
+                "population": "90812",
+                "fipsCode": "JE",
+                "continentName": "Europe",
+                "languages": "en,fr,nrf"
+            },
+            {
+                "countryCode": "JM",
+                "countryName": "Jamaica",
+                "population": "2847232",
+                "fipsCode": "JM",
+                "continentName": "North America",
+                "languages": "en-JM"
+            },
+            {
+                "countryCode": "JO",
+                "countryName": "Jordan",
+                "population": "6407085",
+                "fipsCode": "JO",
+                "continentName": "Asia",
+                "languages": "ar-JO,en"
+            },
+            {
+                "countryCode": "JP",
+                "countryName": "Japan",
+                "population": "127288000",
+                "fipsCode": "JA",
+                "continentName": "Asia",
+                "languages": "ja"
+            },
+            {
+                "countryCode": "KE",
+                "countryName": "Kenya",
+                "population": "40046566",
+                "fipsCode": "KE",
+                "continentName": "Africa",
+                "languages": "en-KE,sw-KE"
+            },
+            {
+                "countryCode": "KG",
+                "countryName": "Kyrgyzstan",
+                "population": "5776500",
+                "fipsCode": "KG",
+                "continentName": "Asia",
+                "languages": "ky,uz,ru"
+            },
+            {
+                "countryCode": "KH",
+                "countryName": "Cambodia",
+                "population": "14453680",
+                "fipsCode": "CB",
+                "continentName": "Asia",
+                "languages": "km,fr,en"
+            },
+            {
+                "countryCode": "KI",
+                "countryName": "Kiribati",
+                "population": "92533",
+                "fipsCode": "KR",
+                "continentName": "Oceania",
+                "languages": "en-KI,gil"
+            },
+            {
+                "countryCode": "KM",
+                "countryName": "Comoros",
+                "population": "773407",
+                "fipsCode": "CN",
+                "continentName": "Africa",
+                "languages": "ar,fr-KM"
+            },
+            {
+                "countryCode": "KN",
+                "countryName": "Saint Kitts and Nevis",
+                "population": "51134",
+                "fipsCode": "SC",
+                "continentName": "North America",
+                "languages": "en-KN"
+            },
+            {
+                "countryCode": "KP",
+                "countryName": "North Korea",
+                "population": "22912177",
+                "fipsCode": "KN",
+                "continentName": "Asia",
+                "languages": "ko-KP"
+            },
+            {
+                "countryCode": "KR",
+                "countryName": "South Korea",
+                "population": "48422644",
+                "fipsCode": "KS",
+                "continentName": "Asia",
+                "languages": "ko-KR,en"
+            },
+            {
+                "countryCode": "KW",
+                "countryName": "Kuwait",
+                "population": "2789132",
+                "fipsCode": "KU",
+                "continentName": "Asia",
+                "languages": "ar-KW,en"
+            },
+            {
+                "countryCode": "KY",
+                "countryName": "Cayman Islands",
+                "population": "44270",
+                "fipsCode": "CJ",
+                "continentName": "North America",
+                "languages": "en-KY"
+            },
+            {
+                "countryCode": "KZ",
+                "countryName": "Kazakhstan",
+                "population": "15340000",
+                "fipsCode": "KZ",
+                "continentName": "Asia",
+                "languages": "kk,ru"
+            },
+            {
+                "countryCode": "LA",
+                "countryName": "Laos",
+                "population": "6368162",
+                "fipsCode": "LA",
+                "continentName": "Asia",
+                "languages": "lo,fr,en"
+            },
+            {
+                "countryCode": "LB",
+                "countryName": "Lebanon",
+                "population": "4125247",
+                "fipsCode": "LE",
+                "continentName": "Asia",
+                "languages": "ar-LB,fr-LB,en,hy"
+            },
+            {
+                "countryCode": "LC",
+                "countryName": "Saint Lucia",
+                "population": "160922",
+                "fipsCode": "ST",
+                "continentName": "North America",
+                "languages": "en-LC"
+            },
+            {
+                "countryCode": "LI",
+                "countryName": "Liechtenstein",
+                "population": "35000",
+                "fipsCode": "LS",
+                "continentName": "Europe",
+                "languages": "de-LI"
+            },
+            {
+                "countryCode": "LK",
+                "countryName": "Sri Lanka",
+                "population": "21513990",
+                "fipsCode": "CE",
+                "continentName": "Asia",
+                "languages": "si,ta,en"
+            },
+            {
+                "countryCode": "LR",
+                "countryName": "Liberia",
+                "population": "3685076",
+                "fipsCode": "LI",
+                "continentName": "Africa",
+                "languages": "en-LR"
+            },
+            {
+                "countryCode": "LS",
+                "countryName": "Lesotho",
+                "population": "1919552",
+                "fipsCode": "LT",
+                "continentName": "Africa",
+                "languages": "en-LS,st,zu,xh"
+            },
+            {
+                "countryCode": "LT",
+                "countryName": "Lithuania",
+                "population": "2944459",
+                "fipsCode": "LH",
+                "continentName": "Europe",
+                "languages": "lt,ru,pl"
+            },
+            {
+                "countryCode": "LU",
+                "countryName": "Luxembourg",
+                "population": "497538",
+                "fipsCode": "LU",
+                "continentName": "Europe",
+                "languages": "lb,de-LU,fr-LU"
+            },
+            {
+                "countryCode": "LV",
+                "countryName": "Latvia",
+                "population": "2217969",
+                "fipsCode": "LG",
+                "continentName": "Europe",
+                "languages": "lv,ru,lt"
+            },
+            {
+                "countryCode": "LY",
+                "countryName": "Libya",
+                "population": "6461454",
+                "fipsCode": "LY",
+                "continentName": "Africa",
+                "languages": "ar-LY,it,en"
+            },
+            {
+                "countryCode": "MA",
+                "countryName": "Morocco",
+                "population": "33848242",
+                "fipsCode": "MO",
+                "continentName": "Africa",
+                "languages": "ar-MA,ber,fr"
+            },
+            {
+                "countryCode": "MC",
+                "countryName": "Monaco",
+                "population": "32965",
+                "fipsCode": "MN",
+                "continentName": "Europe",
+                "languages": "fr-MC,en,it"
+            },
+            {
+                "countryCode": "MD",
+                "countryName": "Moldova",
+                "population": "4324000",
+                "fipsCode": "MD",
+                "continentName": "Europe",
+                "languages": "ro,ru,gag,tr"
+            },
+            {
+                "countryCode": "ME",
+                "countryName": "Montenegro",
+                "population": "666730",
+                "fipsCode": "MJ",
+                "continentName": "Europe",
+                "languages": "sr,hu,bs,sq,hr,rom"
+            },
+            {
+                "countryCode": "MF",
+                "countryName": "Saint Martin",
+                "population": "35925",
+                "fipsCode": "RN",
+                "continentName": "North America",
+                "languages": "fr"
+            },
+            {
+                "countryCode": "MG",
+                "countryName": "Madagascar",
+                "population": "21281844",
+                "fipsCode": "MA",
+                "continentName": "Africa",
+                "languages": "fr-MG,mg"
+            },
+            {
+                "countryCode": "MH",
+                "countryName": "Marshall Islands",
+                "population": "65859",
+                "fipsCode": "RM",
+                "continentName": "Oceania",
+                "languages": "mh,en-MH"
+            },
+            {
+                "countryCode": "MK",
+                "countryName": "Macedonia",
+                "population": "2062294",
+                "fipsCode": "MK",
+                "continentName": "Europe",
+                "languages": "mk,sq,tr,rmm,sr"
+            },
+            {
+                "countryCode": "ML",
+                "countryName": "Mali",
+                "population": "13796354",
+                "fipsCode": "ML",
+                "continentName": "Africa",
+                "languages": "fr-ML,bm"
+            },
+            {
+                "countryCode": "MM",
+                "countryName": "Myanmar [Burma]",
+                "population": "53414374",
+                "fipsCode": "BM",
+                "continentName": "Asia",
+                "languages": "my"
+            },
+            {
+                "countryCode": "MN",
+                "countryName": "Mongolia",
+                "population": "3086918",
+                "fipsCode": "MG",
+                "continentName": "Asia",
+                "languages": "mn,ru"
+            },
+            {
+                "countryCode": "MO",
+                "countryName": "Macao",
+                "population": "449198",
+                "fipsCode": "MC",
+                "continentName": "Asia",
+                "languages": "zh,zh-MO,pt"
+            },
+            {
+                "countryCode": "MP",
+                "countryName": "Northern Mariana Islands",
+                "population": "53883",
+                "fipsCode": "CQ",
+                "continentName": "Oceania",
+                "languages": "fil,tl,zh,ch-MP,en-MP"
+            },
+            {
+                "countryCode": "MQ",
+                "countryName": "Martinique",
+                "population": "432900",
+                "fipsCode": "MB",
+                "continentName": "North America",
+                "languages": "fr-MQ"
+            },
+            {
+                "countryCode": "MR",
+                "countryName": "Mauritania",
+                "population": "3205060",
+                "fipsCode": "MR",
+                "continentName": "Africa",
+                "languages": "ar-MR,fuc,snk,fr,mey,wo"
+            },
+            {
+                "countryCode": "MS",
+                "countryName": "Montserrat",
+                "population": "9341",
+                "fipsCode": "MH",
+                "continentName": "North America",
+                "languages": "en-MS"
+            },
+            {
+                "countryCode": "MT",
+                "countryName": "Malta",
+                "population": "403000",
+                "fipsCode": "MT",
+                "continentName": "Europe",
+                "languages": "mt,en-MT"
+            },
+            {
+                "countryCode": "MU",
+                "countryName": "Mauritius",
+                "population": "1294104",
+                "fipsCode": "MP",
+                "continentName": "Africa",
+                "languages": "en-MU,bho,fr"
+            },
+            {
+                "countryCode": "MV",
+                "countryName": "Maldives",
+                "population": "395650",
+                "fipsCode": "MV",
+                "continentName": "Asia",
+                "languages": "dv,en"
+            },
+            {
+                "countryCode": "MW",
+                "countryName": "Malawi",
+                "population": "15447500",
+                "fipsCode": "MI",
+                "continentName": "Africa",
+                "languages": "ny,yao,tum,swk"
+            },
+            {
+                "countryCode": "MX",
+                "countryName": "Mexico",
+                "population": "112468855",
+                "fipsCode": "MX",
+                "continentName": "North America",
+                "languages": "es-MX"
+            },
+            {
+                "countryCode": "MY",
+                "countryName": "Malaysia",
+                "population": "28274729",
+                "fipsCode": "MY",
+                "continentName": "Asia",
+                "languages": "ms-MY,en,zh,ta,te,ml,pa,th"
+            },
+            {
+                "countryCode": "MZ",
+                "countryName": "Mozambique",
+                "population": "22061451",
+                "fipsCode": "MZ",
+                "continentName": "Africa",
+                "languages": "pt-MZ,vmw"
+            },
+            {
+                "countryCode": "NA",
+                "countryName": "Namibia",
+                "population": "2128471",
+                "fipsCode": "WA",
+                "continentName": "Africa",
+                "languages": "en-NA,af,de,hz,naq"
+            },
+            {
+                "countryCode": "NC",
+                "countryName": "New Caledonia",
+                "population": "216494",
+                "fipsCode": "NC",
+                "continentName": "Oceania",
+                "languages": "fr-NC"
+            },
+            {
+                "countryCode": "NE",
+                "countryName": "Niger",
+                "population": "15878271",
+                "fipsCode": "NG",
+                "continentName": "Africa",
+                "languages": "fr-NE,ha,kr,dje"
+            },
+            {
+                "countryCode": "NF",
+                "countryName": "Norfolk Island",
+                "population": "1828",
+                "fipsCode": "NF",
+                "continentName": "Oceania",
+                "languages": "en-NF"
+            },
+            {
+                "countryCode": "NG",
+                "countryName": "Nigeria",
+                "population": "154000000",
+                "fipsCode": "NI",
+                "continentName": "Africa",
+                "languages": "en-NG,ha,yo,ig,ff"
+            },
+            {
+                "countryCode": "NI",
+                "countryName": "Nicaragua",
+                "population": "5995928",
+                "fipsCode": "NU",
+                "continentName": "North America",
+                "languages": "es-NI,en"
+            },
+            {
+                "countryCode": "NL",
+                "countryName": "Netherlands",
+                "population": "16645000",
+                "fipsCode": "NL",
+                "continentName": "Europe",
+                "languages": "nl-NL,fy-NL"
+            },
+            {
+                "countryCode": "NO",
+                "countryName": "Norway",
+                "population": "5009150",
+                "fipsCode": "NO",
+                "continentName": "Europe",
+                "languages": "no,nb,nn,se,fi"
+            },
+            {
+                "countryCode": "NP",
+                "countryName": "Nepal",
+                "population": "28951852",
+                "fipsCode": "NP",
+                "continentName": "Asia",
+                "languages": "ne,en"
+            },
+            {
+                "countryCode": "NR",
+                "countryName": "Nauru",
+                "population": "10065",
+                "fipsCode": "NR",
+                "continentName": "Oceania",
+                "languages": "na,en-NR"
+            },
+            {
+                "countryCode": "NU",
+                "countryName": "Niue",
+                "population": "2166",
+                "fipsCode": "NE",
+                "continentName": "Oceania",
+                "languages": "niu,en-NU"
+            },
+            {
+                "countryCode": "NZ",
+                "countryName": "New Zealand",
+                "population": "4252277",
+                "fipsCode": "NZ",
+                "continentName": "Oceania",
+                "languages": "en-NZ,mi"
+            },
+            {
+                "countryCode": "OM",
+                "countryName": "Oman",
+                "population": "2967717",
+                "fipsCode": "MU",
+                "continentName": "Asia",
+                "languages": "ar-OM,en,bal,ur"
+            },
+            {
+                "countryCode": "PA",
+                "countryName": "Panama",
+                "population": "3410676",
+                "fipsCode": "PM",
+                "continentName": "North America",
+                "languages": "es-PA,en"
+            },
+            {
+                "countryCode": "PE",
+                "countryName": "Peru",
+                "population": "29907003",
+                "fipsCode": "PE",
+                "continentName": "South America",
+                "languages": "es-PE,qu,ay"
+            },
+            {
+                "countryCode": "PF",
+                "countryName": "French Polynesia",
+                "population": "270485",
+                "fipsCode": "FP",
+                "continentName": "Oceania",
+                "languages": "fr-PF,ty"
+            },
+            {
+                "countryCode": "PG",
+                "countryName": "Papua New Guinea",
+                "population": "6064515",
+                "fipsCode": "PP",
+                "continentName": "Oceania",
+                "languages": "en-PG,ho,meu,tpi"
+            },
+            {
+                "countryCode": "PH",
+                "countryName": "Philippines",
+                "population": "99900177",
+                "fipsCode": "RP",
+                "continentName": "Asia",
+                "languages": "tl,en-PH,fil,ceb,tgl,ilo,hil,war,pam,bik,bcl,pag,mrw,tsg,mdh,cbk,krj,sgd,msb,akl,ibg,yka,mta,abx"
+            },
+            {
+                "countryCode": "PK",
+                "countryName": "Pakistan",
+                "population": "184404791",
+                "fipsCode": "PK",
+                "continentName": "Asia",
+                "languages": "ur-PK,en-PK,pa,sd,ps,brh"
+            },
+            {
+                "countryCode": "PL",
+                "countryName": "Poland",
+                "population": "38500000",
+                "fipsCode": "PL",
+                "continentName": "Europe",
+                "languages": "pl"
+            },
+            {
+                "countryCode": "PM",
+                "countryName": "Saint Pierre and Miquelon",
+                "population": "7012",
+                "fipsCode": "SB",
+                "continentName": "North America",
+                "languages": "fr-PM"
+            },
+            {
+                "countryCode": "PN",
+                "countryName": "Pitcairn Islands",
+                "population": "46",
+                "fipsCode": "PC",
+                "continentName": "Oceania",
+                "languages": "en-PN"
+            },
+            {
+                "countryCode": "PR",
+                "countryName": "Puerto Rico",
+                "population": "3916632",
+                "fipsCode": "RQ",
+                "continentName": "North America",
+                "languages": "en-PR,es-PR"
+            },
+            {
+                "countryCode": "PS",
+                "countryName": "Palestine",
+                "population": "3800000",
+                "fipsCode": "WE",
+                "continentName": "Asia",
+                "languages": "ar-PS"
+            },
+            {
+                "countryCode": "PT",
+                "countryName": "Portugal",
+                "population": "10676000",
+                "fipsCode": "PO",
+                "continentName": "Europe",
+                "languages": "pt-PT,mwl"
+            },
+            {
+                "countryCode": "PW",
+                "countryName": "Palau",
+                "population": "19907",
+                "fipsCode": "PS",
+                "continentName": "Oceania",
+                "languages": "pau,sov,en-PW,tox,ja,fil,zh"
+            },
+            {
+                "countryCode": "PY",
+                "countryName": "Paraguay",
+                "population": "6375830",
+                "fipsCode": "PA",
+                "continentName": "South America",
+                "languages": "es-PY,gn"
+            },
+            {
+                "countryCode": "QA",
+                "countryName": "Qatar",
+                "population": "840926",
+                "fipsCode": "QA",
+                "continentName": "Asia",
+                "languages": "ar-QA,es"
+            },
+            {
+                "countryCode": "RE",
+                "countryName": "Réunion",
+                "population": "776948",
+                "fipsCode": "RE",
+                "continentName": "Africa",
+                "languages": "fr-RE"
+            },
+            {
+                "countryCode": "RO",
+                "countryName": "Romania",
+                "population": "21959278",
+                "fipsCode": "RO",
+                "continentName": "Europe",
+                "languages": "ro,hu,rom"
+            },
+            {
+                "countryCode": "RS",
+                "countryName": "Serbia",
+                "population": "7344847",
+                "fipsCode": "RI",
+                "continentName": "Europe",
+                "languages": "sr,hu,bs,rom"
+            },
+            {
+                "countryCode": "RU",
+                "countryName": "Russia",
+                "population": "140702000",
+                "fipsCode": "RS",
+                "continentName": "Europe",
+                "languages": "ru,tt,xal,cau,ady,kv,ce,tyv,cv,udm,tut,mns,bua,myv,mdf,chm,ba,inh,tut,kbd,krc,ava,sah,nog"
+            },
+            {
+                "countryCode": "RW",
+                "countryName": "Rwanda",
+                "population": "11055976",
+                "fipsCode": "RW",
+                "continentName": "Africa",
+                "languages": "rw,en-RW,fr-RW,sw"
+            },
+            {
+                "countryCode": "SA",
+                "countryName": "Saudi Arabia",
+                "population": "25731776",
+                "fipsCode": "SA",
+                "continentName": "Asia",
+                "languages": "ar-SA"
+            },
+            {
+                "countryCode": "SB",
+                "countryName": "Solomon Islands",
+                "population": "559198",
+                "fipsCode": "BP",
+                "continentName": "Oceania",
+                "languages": "en-SB,tpi"
+            },
+            {
+                "countryCode": "SC",
+                "countryName": "Seychelles",
+                "population": "88340",
+                "fipsCode": "SE",
+                "continentName": "Africa",
+                "languages": "en-SC,fr-SC"
+            },
+            {
+                "countryCode": "SD",
+                "countryName": "Sudan",
+                "population": "35000000",
+                "fipsCode": "SU",
+                "continentName": "Africa",
+                "languages": "ar-SD,en,fia"
+            },
+            {
+                "countryCode": "SE",
+                "countryName": "Sweden",
+                "population": "9828655",
+                "fipsCode": "SW",
+                "continentName": "Europe",
+                "languages": "sv-SE,se,sma,fi-SE"
+            },
+            {
+                "countryCode": "SG",
+                "countryName": "Singapore",
+                "population": "4701069",
+                "fipsCode": "SN",
+                "continentName": "Asia",
+                "languages": "cmn,en-SG,ms-SG,ta-SG,zh-SG"
+            },
+            {
+                "countryCode": "SH",
+                "countryName": "Saint Helena",
+                "population": "7460",
+                "fipsCode": "SH",
+                "continentName": "Africa",
+                "languages": "en-SH"
+            },
+            {
+                "countryCode": "SI",
+                "countryName": "Slovenia",
+                "population": "2007000",
+                "fipsCode": "SI",
+                "continentName": "Europe",
+                "languages": "sl,sh"
+            },
+            {
+                "countryCode": "SJ",
+                "countryName": "Svalbard and Jan Mayen",
+                "population": "2550",
+                "fipsCode": "SV",
+                "continentName": "Europe",
+                "languages": "no,ru"
+            },
+            {
+                "countryCode": "SK",
+                "countryName": "Slovakia",
+                "population": "5455000",
+                "fipsCode": "LO",
+                "continentName": "Europe",
+                "languages": "sk,hu"
+            },
+            {
+                "countryCode": "SL",
+                "countryName": "Sierra Leone",
+                "population": "5245695",
+                "fipsCode": "SL",
+                "continentName": "Africa",
+                "languages": "en-SL,men,tem"
+            },
+            {
+                "countryCode": "SM",
+                "countryName": "San Marino",
+                "population": "31477",
+                "fipsCode": "SM",
+                "continentName": "Europe",
+                "languages": "it-SM"
+            },
+            {
+                "countryCode": "SN",
+                "countryName": "Senegal",
+                "population": "12323252",
+                "fipsCode": "SG",
+                "continentName": "Africa",
+                "languages": "fr-SN,wo,fuc,mnk"
+            },
+            {
+                "countryCode": "SO",
+                "countryName": "Somalia",
+                "population": "10112453",
+                "fipsCode": "SO",
+                "continentName": "Africa",
+                "languages": "so-SO,ar-SO,it,en-SO"
+            },
+            {
+                "countryCode": "SR",
+                "countryName": "Suriname",
+                "population": "492829",
+                "fipsCode": "NS",
+                "continentName": "South America",
+                "languages": "nl-SR,en,srn,hns,jv"
+            },
+            {
+                "countryCode": "SS",
+                "countryName": "South Sudan",
+                "population": "8260490",
+                "fipsCode": "OD",
+                "continentName": "Africa",
+                "languages": "en"
+            },
+            {
+                "countryCode": "ST",
+                "countryName": "São Tomé and Príncipe",
+                "population": "175808",
+                "fipsCode": "TP",
+                "continentName": "Africa",
+                "languages": "pt-ST"
+            },
+            {
+                "countryCode": "SV",
+                "countryName": "El Salvador",
+                "population": "6052064",
+                "fipsCode": "ES",
+                "continentName": "North America",
+                "languages": "es-SV"
+            },
+            {
+                "countryCode": "SX",
+                "countryName": "Sint Maarten",
+                "population": "37429",
+                "fipsCode": "NN",
+                "continentName": "North America",
+                "languages": "nl,en"
+            },
+            {
+                "countryCode": "SY",
+                "countryName": "Syria",
+                "population": "22198110",
+                "fipsCode": "SY",
+                "continentName": "Asia",
+                "languages": "ar-SY,ku,hy,arc,fr,en"
+            },
+            {
+                "countryCode": "SZ",
+                "countryName": "Swaziland",
+                "population": "1354051",
+                "fipsCode": "WZ",
+                "continentName": "Africa",
+                "languages": "en-SZ,ss-SZ"
+            },
+            {
+                "countryCode": "TC",
+                "countryName": "Turks and Caicos Islands",
+                "population": "20556",
+                "fipsCode": "TK",
+                "continentName": "North America",
+                "languages": "en-TC"
+            },
+            {
+                "countryCode": "TD",
+                "countryName": "Chad",
+                "population": "10543464",
+                "fipsCode": "CD",
+                "continentName": "Africa",
+                "languages": "fr-TD,ar-TD,sre"
+            },
+            {
+                "countryCode": "TF",
+                "countryName": "French Southern Territories",
+                "population": "140",
+                "fipsCode": "FS",
+                "continentName": "Antarctica",
+                "languages": "fr"
+            },
+            {
+                "countryCode": "TG",
+                "countryName": "Togo",
+                "population": "6587239",
+                "fipsCode": "TO",
+                "continentName": "Africa",
+                "languages": "fr-TG,ee,hna,kbp,dag,ha"
+            },
+            {
+                "countryCode": "TH",
+                "countryName": "Thailand",
+                "population": "67089500",
+                "fipsCode": "TH",
+                "continentName": "Asia",
+                "languages": "th,en"
+            },
+            {
+                "countryCode": "TJ",
+                "countryName": "Tajikistan",
+                "population": "7487489",
+                "fipsCode": "TI",
+                "continentName": "Asia",
+                "languages": "tg,ru"
+            },
+            {
+                "countryCode": "TK",
+                "countryName": "Tokelau",
+                "population": "1466",
+                "fipsCode": "TL",
+                "continentName": "Oceania",
+                "languages": "tkl,en-TK"
+            },
+            {
+                "countryCode": "TL",
+                "countryName": "East Timor",
+                "population": "1154625",
+                "fipsCode": "TT",
+                "continentName": "Oceania",
+                "languages": "tet,pt-TL,id,en"
+            },
+            {
+                "countryCode": "TM",
+                "countryName": "Turkmenistan",
+                "population": "4940916",
+                "fipsCode": "TX",
+                "continentName": "Asia",
+                "languages": "tk,ru,uz"
+            },
+            {
+                "countryCode": "TN",
+                "countryName": "Tunisia",
+                "population": "10589025",
+                "fipsCode": "TS",
+                "continentName": "Africa",
+                "languages": "ar-TN,fr"
+            },
+            {
+                "countryCode": "TO",
+                "countryName": "Tonga",
+                "population": "122580",
+                "fipsCode": "TN",
+                "continentName": "Oceania",
+                "languages": "to,en-TO"
+            },
+            {
+                "countryCode": "TR",
+                "countryName": "Turkey",
+                "population": "77804122",
+                "fipsCode": "TU",
+                "continentName": "Asia",
+                "languages": "tr-TR,ku,diq,az,av"
+            },
+            {
+                "countryCode": "TT",
+                "countryName": "Trinidad and Tobago",
+                "population": "1228691",
+                "fipsCode": "TD",
+                "continentName": "North America",
+                "languages": "en-TT,hns,fr,es,zh"
+            },
+            {
+                "countryCode": "TV",
+                "countryName": "Tuvalu",
+                "population": "10472",
+                "fipsCode": "TV",
+                "continentName": "Oceania",
+                "languages": "tvl,en,sm,gil"
+            },
+            {
+                "countryCode": "TW",
+                "countryName": "Taiwan",
+                "population": "22894384",
+                "fipsCode": "TW",
+                "continentName": "Asia",
+                "languages": "zh-TW,zh,nan,hak"
+            },
+            {
+                "countryCode": "TZ",
+                "countryName": "Tanzania",
+                "population": "41892895",
+                "fipsCode": "TZ",
+                "continentName": "Africa",
+                "languages": "sw-TZ,en,ar"
+            },
+            {
+                "countryCode": "UA",
+                "countryName": "Ukraine",
+                "population": "45415596",
+                "fipsCode": "UP",
+                "continentName": "Europe",
+                "languages": "uk,ru-UA,rom,pl,hu"
+            },
+            {
+                "countryCode": "UG",
+                "countryName": "Uganda",
+                "population": "33398682",
+                "fipsCode": "UG",
+                "continentName": "Africa",
+                "languages": "en-UG,lg,sw,ar"
+            },
+            {
+                "countryCode": "UM",
+                "countryName": "U.S. Minor Outlying Islands",
+                "population": "0",
+                "fipsCode": "",
+                "continentName": "Oceania",
+                "languages": "en-UM"
+            },
+            {
+                "countryCode": "US",
+                "countryName": "United States",
+                "population": "310232863",
+                "fipsCode": "US",
+                "continentName": "North America",
+                "languages": "en-US,es-US,haw,fr"
+            },
+            {
+                "countryCode": "UY",
+                "countryName": "Uruguay",
+                "population": "3477000",
+                "fipsCode": "UY",
+                "continentName": "South America",
+                "languages": "es-UY"
+            },
+            {
+                "countryCode": "UZ",
+                "countryName": "Uzbekistan",
+                "population": "27865738",
+                "fipsCode": "UZ",
+                "continentName": "Asia",
+                "languages": "uz,ru,tg"
+            },
+            {
+                "countryCode": "VA",
+                "countryName": "Vatican City",
+                "population": "921",
+                "fipsCode": "VT",
+                "continentName": "Europe",
+                "languages": "la,it,fr"
+            },
+            {
+                "countryCode": "VC",
+                "countryName": "Saint Vincent and the Grenadines",
+                "population": "104217",
+                "fipsCode": "VC",
+                "continentName": "North America",
+                "languages": "en-VC,fr"
+            },
+            {
+                "countryCode": "VE",
+                "countryName": "Venezuela",
+                "population": "27223228",
+                "fipsCode": "VE",
+                "continentName": "South America",
+                "languages": "es-VE"
+            },
+            {
+                "countryCode": "VG",
+                "countryName": "British Virgin Islands",
+                "population": "21730",
+                "fipsCode": "VI",
+                "continentName": "North America",
+                "languages": "en-VG"
+            },
+            {
+                "countryCode": "VI",
+                "countryName": "U.S. Virgin Islands",
+                "population": "108708",
+                "fipsCode": "VQ",
+                "continentName": "North America",
+                "languages": "en-VI"
+            },
+            {
+                "countryCode": "VN",
+                "countryName": "Vietnam",
+                "population": "89571130",
+                "fipsCode": "VM",
+                "continentName": "Asia",
+                "languages": "vi,en,fr,zh,km"
+            },
+            {
+                "countryCode": "VU",
+                "countryName": "Vanuatu",
+                "population": "221552",
+                "fipsCode": "NH",
+                "continentName": "Oceania",
+                "languages": "bi,en-VU,fr-VU"
+            },
+            {
+                "countryCode": "WF",
+                "countryName": "Wallis and Futuna",
+                "population": "16025",
+                "fipsCode": "WF",
+                "continentName": "Oceania",
+                "languages": "wls,fud,fr-WF"
+            },
+            {
+                "countryCode": "WS",
+                "countryName": "Samoa",
+                "population": "192001",
+                "fipsCode": "WS",
+                "continentName": "Oceania",
+                "languages": "sm,en-WS"
+            },
+            {
+                "countryCode": "XK",
+                "countryName": "Kosovo",
+                "population": "1800000",
+                "fipsCode": "KV",
+                "continentName": "Europe",
+                "languages": "sq,sr"
+            },
+            {
+                "countryCode": "YE",
+                "countryName": "Yemen",
+                "population": "23495361",
+                "fipsCode": "YM",
+                "continentName": "Asia",
+                "languages": "ar-YE"
+            },
+            {
+                "countryCode": "YT",
+                "countryName": "Mayotte",
+                "population": "159042",
+                "fipsCode": "MF",
+                "continentName": "Africa",
+                "languages": "fr-YT"
+            },
+            {
+                "countryCode": "ZA",
+                "countryName": "South Africa",
+                "population": "49000000",
+                "fipsCode": "SF",
+                "continentName": "Africa",
+                "languages": "zu,xh,af,nso,en-ZA,tn,st,ts,ss,ve,nr"
+            },
+            {
+                "countryCode": "ZM",
+                "countryName": "Zambia",
+                "population": "13460305",
+                "fipsCode": "ZA",
+                "continentName": "Africa",
+                "languages": "en-ZM,bem,loz,lun,lue,ny,toi"
+            },
+            {
+                "countryCode": "ZW",
+                "countryName": "Zimbabwe",
+                "population": "13061000",
+                "fipsCode": "ZI",
+                "continentName": "Africa",
+                "languages": "en-ZW,sn,nr,nd"
+            }
+        ]
+    }
+}
