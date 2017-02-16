@@ -5,11 +5,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Input,List, Image,Flag,Grid,Menu,Form,Divider,Table,Step,Icon } from 'semantic-ui-react';
 import country from './country.json';
+import debounce from 'throttle-debounce/debounce';
 
 const   countries       = country.countries.country,
         countryesKey    = Object.keys( countries[0]);
 
+
+class DropdownList extends React.Component {
+
+};
 class MyList extends React.Component {
+    
     constructor(props) {
         super(props);
         this.state = {
@@ -21,21 +27,24 @@ class MyList extends React.Component {
         this.click = this.click.bind(this)
     };
     serch(e) {
-        let serchEvent = e.target.value.toLowerCase();
-        if(serchEvent.length < 1 ){
-            this.setState({
-                displayDropdownCountry: false
-            })
-        } else {
-            let dropdownCountry = countries.filter((el)=>{
-                let serchValue = el.countryName.toLowerCase();
-                return serchValue.indexOf(serchEvent) !== -1;
-            });
-            this.setState({
-                dropdownCountry: dropdownCountry,
-                displayDropdownCountry: true
-            })
-        }
+        e.persist();
+        debounce(1000, () => {
+            let serchEvent = e.target.value.toLowerCase();
+            if(serchEvent.length < 1 ){
+                this.setState({
+                    displayDropdownCountry: false
+                })
+            } else {
+                let dropdownCountry = countries.filter((el)=>{
+                    let serchValue = el.countryName.toLowerCase();
+                    return serchValue.indexOf(serchEvent) !== -1;
+                });
+                this.setState({
+                    dropdownCountry: dropdownCountry,
+                    displayDropdownCountry: true
+                })
+            }
+        })()
     };
     click(e) {
         let getDataCountry = e.target.getAttribute('data-country')
@@ -59,9 +68,9 @@ class MyList extends React.Component {
                         {
                             this.state.displayDropdownCountry ? this.state.dropdownCountry.map((el) =>
                                 <Menu fluid vertical>
-                                <Menu.Item data-country={el.countryCode} key={el.countryCode} onClick={this.click}>
-                                    <Flag name={el.countryCode.toLowerCase()} />{el.countryName}
-                                </Menu.Item>
+                                    <Menu.Item data-country={el.countryCode} key={el.countryCode} onClick={this.click}>
+                                        <Flag name={el.countryCode.toLowerCase()} />{el.countryName}
+                                    </Menu.Item>
                                 </Menu>
                             ) : null
                         }
