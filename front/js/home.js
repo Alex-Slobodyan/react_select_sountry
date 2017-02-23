@@ -66,6 +66,7 @@ class MyList extends React.Component {
                                 countryCode={el.countryCode}
                                 countryName={el.countryName}
                                 click={this.click}
+                                key={el.countryCode}
                             />
                         }) : null
                     }
@@ -77,6 +78,7 @@ class MyList extends React.Component {
                                 return <InfoList 
                                     title={index}
                                     info={this.state.selectCountry[index]}
+                                    key={index}
                                 />
                             })
                         }
