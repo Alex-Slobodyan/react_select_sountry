@@ -10,6 +10,7 @@ import debounce from 'throttle-debounce/debounce';
 import DropdownList from './component/dropdownList.jsx';
 import InputSearch from './component/inputSearch.jsx';
 import InfoList from './component/infoList.jsx';
+import Btn from './component/btn.jsx';
 
 const   countries       = country.countries.country,
         countryesKey    = Object.keys( countries[0]);
@@ -82,7 +83,9 @@ class MyList extends React.Component {
                                 />
                             })
                         }
+                        <Btn />
                     </div>
+                    
                 </Grid.Column>
             </Grid>
         )
