@@ -5,7 +5,7 @@ const   webpack             = require('webpack'),
 module.exports = {
     context: __dirname + '/front',
     entry: {
-        home: "./js/home"
+        home: "./js/app"
     },
     output: {
         path: __dirname + '/prod',

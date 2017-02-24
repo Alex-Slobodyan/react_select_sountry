@@ -1,21 +1,18 @@
-
-import '../css/index.css';
 import 'semantic-ui-css/semantic.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Input,List,Grid,Divider } from 'semantic-ui-react';
-import country from './country.json';
+import country from '../api/country.json';
 import debounce from 'throttle-debounce/debounce';
 
-import DropdownList from './component/dropdownList.jsx';
-import InputSearch from './component/inputSearch.jsx';
-import InfoList from './component/infoList.jsx';
-import Btn from './component/btn.jsx';
+import DropdownList from './dropdownList.jsx';
+import InputSearch from './inputSearch.jsx';
+import InfoList from './infoList.jsx';
 
 const   countries       = country.countries.country,
         countryesKey    = Object.keys( countries[0]);
 
-class MyList extends React.Component {
+export default class MyList extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -58,41 +55,34 @@ class MyList extends React.Component {
     };
     render () {
         return (
-            <Grid textAlign='left' columns={2}>
-                <Grid.Column>
-                    <InputSearch serch={this.serch}/>
-                    {
-                        this.state.displayDropdownCountry ? this.state.dropdownCountry.map((el) => {
-                            return <DropdownList
-                                countryCode={el.countryCode}
-                                countryName={el.countryName}
-                                click={this.click}
-                                key={el.countryCode}
-                            />
-                        }) : null
-                    }
-                </Grid.Column>
-                <Grid.Column>
-                    <div className="fixed_right">
-                        {
-                            countryesKey.map((index)=> {
-                                return <InfoList 
-                                    title={index}
-                                    info={this.state.selectCountry[index]}
-                                    key={index}
-                                />
-                            })
-                        }
-                        <Btn />
-                    </div>
-                    
-                </Grid.Column>
-            </Grid>
+          <Grid textAlign='left' columns={2}>
+              <Grid.Column>
+                  <InputSearch serch={this.serch}/>
+                  {
+                      this.state.displayDropdownCountry ? this.state.dropdownCountry.map((el) => {
+                          return <DropdownList
+                              countryCode={el.countryCode}
+                              countryName={el.countryName}
+                              click={this.click}
+                              key={el.countryCode}
+                          />
+                      }) : null
+                  }
+              </Grid.Column>
+              <Grid.Column>
+                  <div className="fixed_right">
+                      {
+                          countryesKey.map((index)=> {
+                              return <InfoList 
+                                  title={index}
+                                  info={this.state.selectCountry[index]}
+                                  key={index}
+                              />
+                          })
+                      }
+                  </div>
+              </Grid.Column>
+          </Grid>
         )
     }
 }
-
-ReactDOM.render(
-    <MyList />,
-    document.getElementById('root')
-);
