@@ -3,7 +3,7 @@ import '../css/index.css';
 import 'semantic-ui-css/semantic.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Input,List,Grid,Divider,Table } from 'semantic-ui-react';
+import { Input,List,Grid,Divider } from 'semantic-ui-react';
 import country from './country.json';
 import debounce from 'throttle-debounce/debounce';
 
@@ -29,15 +29,15 @@ class MyList extends React.Component {
     serch(e) {
         e.persist();
         debounce(1000, () => {
-            let serchEvent = e.target.value.toLowerCase();
-            if(serchEvent.length < 1 ){
+            let searchEvent = e.target.value.toLowerCase();
+            if(searchEvent.length < 1 ){
                 this.setState({
                     displayDropdownCountry: false
                 })
             } else {
                 let dropdownCountry = countries.filter((el)=>{
-                    let serchValue = el.countryName.toLowerCase();
-                    return serchValue.indexOf(serchEvent) !== -1;
+                    let searchValue = el.countryName;
+                    return searchValue.indexOf(searchEvent) !== -1;
                 });
                 this.setState({
                     dropdownCountry: dropdownCountry,
@@ -49,8 +49,8 @@ class MyList extends React.Component {
     click(e) {
         let getDataCountry = e.target.getAttribute('data-country')
         let selectCountry = countries.filter((el)=>{
-            let serchValue = el.countryCode;
-            return serchValue.indexOf(getDataCountry) !== -1;
+            let searchValue = el.countryCode;
+            return searchValue.indexOf(getDataCountry) !== -1;
         });
         this.setState({
             selectCountry: selectCountry[0],
