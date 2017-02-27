@@ -1,7 +1,7 @@
 import 'semantic-ui-css/semantic.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Input,List,Grid,Divider } from 'semantic-ui-react';
+import { Input,List,Grid,Divider,Header } from 'semantic-ui-react';
 import country from '../api/country.json';
 import debounce from 'throttle-debounce/debounce';
 
@@ -55,34 +55,37 @@ export default class MyList extends React.Component {
     };
     render () {
         return (
-          <Grid textAlign='left' columns={2}>
-              <Grid.Column>
-                  <InputSearch serch={this.serch}/>
-                  {
-                      this.state.displayDropdownCountry ? this.state.dropdownCountry.map((el) => {
-                          return <DropdownList
-                              countryCode={el.countryCode}
-                              countryName={el.countryName}
-                              click={this.click}
-                              key={el.countryCode}
-                          />
-                      }) : null
-                  }
-              </Grid.Column>
-              <Grid.Column>
-                  <div className="fixed_right">
-                      {
-                          countryesKey.map((index)=> {
-                              return <InfoList 
-                                  title={index}
-                                  info={this.state.selectCountry[index]}
-                                  key={index}
-                              />
-                          })
-                      }
-                  </div>
-              </Grid.Column>
-          </Grid>
+            <div>
+                <Header as='h2'>Countries</Header>
+                <Grid textAlign='left' columns={2}>
+                    <Grid.Column>
+                        <InputSearch serch={this.serch}/>
+                        {
+                            this.state.displayDropdownCountry ? this.state.dropdownCountry.map((el) => {
+                                return <DropdownList
+                                    countryCode={el.countryCode}
+                                    countryName={el.countryName}
+                                    click={this.click}
+                                    key={el.countryCode}
+                                />
+                            }) : null
+                        }
+                    </Grid.Column>
+                    <Grid.Column>
+                        <div className="fixed_right">
+                            {
+                                countryesKey.map((index)=> {
+                                    return <InfoList 
+                                        title={index}
+                                        info={this.state.selectCountry[index]}
+                                        key={index}
+                                    />
+                                })
+                            }
+                        </div>
+                    </Grid.Column>
+                </Grid>
+            </div>
         )
     }
 }

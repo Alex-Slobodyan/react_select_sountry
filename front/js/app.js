@@ -26,8 +26,8 @@ ReactDOM.render(
     <Router history={browserHistory}>
       <Route  path="/" component={App}>
         <IndexRoute component={Home}/>
-        <Route path="home" component={Home} />
-        <Route path="varify" component={Varify} />
+        <Link path="home" component={Home} />
+        <Link path="varify" component={Varify} />
       </Route>
     </Router>,
     document.getElementById('root')

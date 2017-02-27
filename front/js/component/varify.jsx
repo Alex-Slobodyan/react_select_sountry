@@ -1,14 +1,24 @@
 import React from 'react';
-import { Form,Input,Header } from 'semantic-ui-react';
+import { Input,Header,Icon,Form,Message,Button} from 'semantic-ui-react';
 
 export default class Varify extends React.Component {
   render () {
     return (
-      <Form>
+      
+      <Form success>
+        <Form.Field>
           <Header as='h2'>Verify email address</Header>
-          <Form.Field>
-              <input placeholder='Enter email' />
-          </Form.Field>
+          <Input iconPosition='left' placeholder='Format: "name@domain.xxx"'>
+              <Icon name='at' />
+              <input />
+          </Input>
+          <Message
+            success
+            header='Form Completed'
+            content="You're all signed up for the newsletter"
+          />
+          <Button>Submit</Button>
+        </Form.Field>
       </Form>
     )
   }
