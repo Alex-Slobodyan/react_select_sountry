@@ -20,10 +20,10 @@ export default class MyList extends React.Component {
             displayDropdownCountry: false,
             selectCountry: ''
         };
-        this.serch = this.serch.bind(this)
+        this.serch = this.search.bind(this)
         this.click = this.click.bind(this)
     };
-    serch(e) {
+    search(e) {
         e.persist();
         debounce(1000, () => {
             let searchEvent = e.target.value.toLowerCase();
@@ -59,7 +59,7 @@ export default class MyList extends React.Component {
                 <Header as='h2'>Countries</Header>
                 <Grid textAlign='left' columns={2}>
                     <Grid.Column>
-                        <InputSearch serch={this.serch}/>
+                        <InputSearch serch={this.search}/>
                         {
                             this.state.displayDropdownCountry ? this.state.dropdownCountry.map((el) => {
                                 return <DropdownList

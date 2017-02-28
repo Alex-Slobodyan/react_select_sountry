@@ -1,25 +1,78 @@
 import React from 'react';
 import { Input,Header,Icon,Form,Message,Button} from 'semantic-ui-react';
 
+import Messages from './message.jsx';
+
+let request_ansver = {};
 export default class Varify extends React.Component {
+
+  constructor(props) {
+        super(props);
+        this.state = {
+            loader: false,
+            status_success: false,
+            status_error: false
+        };
+        this.getVarify = this.getVarify.bind(this)
+    };
+  
+  getVarify(e) {
+    e.preventDefault();
+    const val_input_mail = document.querySelector('.input_email').value;
+
+    const scope = this
+    let request = new XMLHttpRequest();
+    request.open('GET', 'https://apilayer.net/api/check?access_key=22e6af1fbdfc0a929d9895c3aa8015d1&email='+val_input_mail+'', true);
+    request.send();
+    
+    scope.setState({
+      loader: true
+    })
+
+    request.onload = function() {
+        if (request.status < 400) {
+            request_ansver = JSON.parse(request.response) ;
+            
+            if (request_ansver.smtp_check) {
+              console.log('request_answer1',request_ansver);
+              scope.setState({
+                status_success: true
+              })
+            }else {
+              console.log('request_answer2',request_ansver.smtp_check);
+              scope.setState({
+                status_success: false,
+                status_error: true
+              })
+            }
+        } 
+        scope.setState({
+              loader: false
+        })
+    };
+  }
+
   render () {
     return (
-      
-      <Form success>
-        <Form.Field>
+        <Form loading={this.state.loader ? true : false} success={this.state.status_success ? true : false} error={this.state.status_error ? true : false}>
           <Header as='h2'>Verify email address</Header>
-          <Input iconPosition='left' placeholder='Format: "name@domain.xxx"'>
+          <Form.Input iconPosition='left' placeholder='Format: "name@domain.xxx"'>
               <Icon name='at' />
-              <input />
-          </Input>
-          <Message
-            success
-            header='Form Completed'
-            content="You're all signed up for the newsletter"
-          />
-          <Button>Submit</Button>
-        </Form.Field>
-      </Form>
+              <input className="input_email" />
+          </Form.Input>
+          {this.state.status_success ? 
+            <Messages
+              success={this.state.status_success ? true : false}
+              header='Completed'
+              content="Verify email address is OK"
+            /> : <Messages
+              error
+              header='Completed'
+              content="Verify email address is NO OK =("
+            />
+          }
+          <Button onClick={this.getVarify}>Submit</Button>
+        </Form>
     )
   }
 }
