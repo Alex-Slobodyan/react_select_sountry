@@ -6,7 +6,7 @@ export default class InputSearch extends React.Component {
     return (
       <Form>
           <Form.Field>
-              <input placeholder='Search country...' onChange={this.props.serch} />
+              <input placeholder='Search country...' onChange={this.props.search} />
           </Form.Field>
       </Form>
     )
