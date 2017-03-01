@@ -1,10 +1,8 @@
-import 'semantic-ui-css/semantic.css';
 import React from 'react';
-import ReactDOM from 'react-dom';
-import { Input,List,Grid,Divider,Header } from 'semantic-ui-react';
+import {Grid,Header } from 'semantic-ui-react';
+
 import country from '../api/country.json';
 import debounce from 'throttle-debounce/debounce';
-
 import DropdownList from '../component/dropdownList.jsx';
 import InputSearch from '../component/inputSearch.jsx';
 import InfoList from '../component/infoList.jsx';

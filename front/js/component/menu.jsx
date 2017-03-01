@@ -1,5 +1,5 @@
 import React from 'react';
-import { Menu ,Container } from 'semantic-ui-react';
+import { Menu } from 'semantic-ui-react';
 import {  Link,IndexLink } from 'react-router'
 
 export default class MenuExampleBasic extends React.Component {
