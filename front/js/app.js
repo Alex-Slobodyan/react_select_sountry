@@ -6,8 +6,8 @@ import MenuExampleBasic from './component/menu.jsx';
 import { Router, Route, Link, browserHistory, IndexRoute } from 'react-router'
 import { Container } from 'semantic-ui-react';
 
-import Home from './component/home.jsx';
-import Varify from './component/varify.jsx';
+import Home from './template/home.jsx';
+import Varify from './template/varify.jsx';
 
 class App extends React.Component {
   render () {
