@@ -1,4 +1,4 @@
-import '../css/index.css';
+import './index.css';
 import 'semantic-ui-css/semantic.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -15,20 +15,20 @@ class App extends React.Component {
       <div>
         <MenuExampleBasic />
         <Container className="content">
-          {this.props.children}
+        {this.props.children}
         </Container>
       </div>
     )
-  }
-}
+  };
+};
 
 ReactDOM.render(
-    <Router history={browserHistory}>
-      <Route  path="/" component={App}>
-        <IndexRoute component={Home}/>
-        <Link path="home" component={Home} />
-        <Link path="varify" component={Varify} />
-      </Route>
-    </Router>,
-    document.getElementById('root')
+  <Router history={browserHistory}>
+    <Route  path="/" component={App}>
+      <IndexRoute component={Home} />
+      <Link path="home" component={Home} />
+      <Link path="varify" component={Varify} />
+    </Route>
+  </Router>,
+  document.getElementById('root')
 );

@@ -10,7 +10,7 @@ export const api = {
       });
   
       if (response.status !== 200) {
-        throw new Error('Sorry ¯\_(ツ)_/¯');
+        throw new Error('Sorry');
       }
   
       return await response.json();
@@ -25,12 +25,11 @@ export const api = {
         });
     
         if (response.status !== 200) {
-          throw new Error('Sorry ¯\_(ツ)_/¯');
+          throw new Error('Sorry');
         }
     
         const {data: country} = await response.json();
     
         return country;
       }
-
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Form, Input, Message, Modal, Button } from 'semantic-ui-react';
+import { Input, Message, Modal, List, Header, Image} from 'semantic-ui-react';
 import {api} from '../api/';
 import DropdownList from './dropdownList.jsx';
 import debounce from 'lodash/debounce';
@@ -37,10 +37,9 @@ export default class InputSearch extends React.Component {
   };
 
   _click = el => () => {
-    console.log("el", el)
     this.setState({ 
       modalOpen: true,
-      modalContent: el.name
+      modalContent: el
     })
   };
 
@@ -49,11 +48,8 @@ export default class InputSearch extends React.Component {
   render () {
     const {dropdownCountry, statusWarning, modalOpen, modalContent} = this.state;
     return (
-
       <div>
-        <Form>
-            <Form.Field>
-                <input placeholder='Search country...' onChange={this._inputCallbackDelayed} />
+                <Input fluid icon='search' placeholder='Search country...' onChange={this._inputCallbackDelayed} />
                 {
                   statusWarning ? 
                     <Message negative>
@@ -71,11 +67,20 @@ export default class InputSearch extends React.Component {
                       />
                   }) : null
                 }
-                
-            </Form.Field>
-        </Form>
         <Modal open={modalOpen} onClose={this._close}>
-          <Modal.Header>{modalContent}</Modal.Header>
+          <Header>
+            <Image src={modalContent.flag} /> {modalContent.name}
+          </Header>
+          <Modal.Content>
+            <List bulleted>
+              <List.Item><b>NativeName:</b> {modalContent.nativeName}</List.Item>
+              <List.Item><b>Region:</b> {modalContent.region}</List.Item>
+              <List.Item><b>Population:</b> {modalContent.population}</List.Item>
+              <List.Item><b>Timezones:</b> {modalContent.timezones}</List.Item>
+              <List.Item><b>Domain:</b> {modalContent.topLevelDomain}</List.Item>
+              <List.Item><b>Code:</b> {modalContent.alpha2Code}</List.Item>
+            </List>
+          </Modal.Content>
         </Modal>
       </div>
     )

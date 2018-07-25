@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {Grid,Header } from 'semantic-ui-react';
 
 import InputSearch from '../component/inputSearch.jsx';
