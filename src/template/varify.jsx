@@ -1,5 +1,5 @@
 import React from 'react';
-import { Input,Header,Icon,Form,Message,Button} from 'semantic-ui-react';
+import { Header,Icon,Form,Message,Button} from 'semantic-ui-react';
 
 let request_ansver = {};
 export default class Varify extends React.Component {
@@ -20,7 +20,7 @@ export default class Varify extends React.Component {
     const val_input_mail = document.querySelector('.input_email').value;
 
     const scope = this
-    if (val_input_mail == '') {
+    if (val_input_mail === '') {
       scope.setState({
         status_warning: true,
         status_success: false,
