@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "author": "jozz",
+  "homepage": "https://alex-slobodyan.github.io/select_country/",
   "dependencies": {
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
