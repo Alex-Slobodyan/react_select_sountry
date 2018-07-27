@@ -24,7 +24,7 @@ class App extends React.Component {
 
 ReactDOM.render(
   <Router history={browserHistory}>
-    <Route  path="/" component={App}>
+    <Route  path={`${process.env.PUBLIC_URL}/`} component={App}>
       <IndexRoute component={Home} />
       <Link path="home" component={Home} />
       <Link path="varify" component={Varify} />

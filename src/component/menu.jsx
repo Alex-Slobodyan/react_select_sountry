@@ -8,12 +8,12 @@ export default class MenuExampleBasic extends React.Component {
       <div>
         <Menu className="my_menu">
           <Menu.Item>
-            <IndexLink to="/"  activeClassName="my_menu__item--active" className="my_menu__item">
+            <IndexLink to={`${process.env.PUBLIC_URL}/`} activeClassName="my_menu__item--active" className="my_menu__item">
               Country
             </IndexLink>
           </Menu.Item>
           <Menu.Item > 
-            <Link to="/varify"  activeClassName="my_menu__item--active" className="my_menu__item">
+            <Link to={`${process.env.PUBLIC_URL}/varify`}  activeClassName="my_menu__item--active" className="my_menu__item">
                 Varify Email
             </Link>
           </Menu.Item >

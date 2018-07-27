@@ -65,7 +65,7 @@ export default class Varify extends React.Component {
   render () {
     return (
         <Form loading={this.state.loader ? true : false} success={this.state.status_success ? true : false} error={this.state.status_error ? true : false} warning={this.state.status_warning ? true : false}>
-          <Header as='h2'>Verify email address</Header>
+          <Header as='h2'>Varify email address</Header>
           <Form.Input iconPosition='left' placeholder='Format: "name@domain.xxx"'>
               <Icon name='at' />
               <input className="input_email" />
@@ -79,11 +79,11 @@ export default class Varify extends React.Component {
             <Message
               success={this.state.status_success ? true : false}
               header='Completed'
-              content="Verify email address is OK"
+              content="Varify email address is OK"
             /> : <Message
               error
               header='Completed'
-              content="Verify email address is NO OK =("
+              content="Varify email address is NO OK =("
             />
           }
           <Button onClick={this.getVarify}>Submit</Button>
